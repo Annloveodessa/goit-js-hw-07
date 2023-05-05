@@ -18,7 +18,7 @@ function createImagesGallery(galleryItems) {
     .join("");
 }
 
-const simpleLightbox = newSimpleLightbox(".gallery__link", {
+const simpleLightbox = new SimpleLightbox(".gallery__link", {
   captionsData: "alt",
   captionDelay: 250,
 });
